@@ -1,0 +1,21 @@
+.wrap{
+    height:300px;
+    width:300px;
+    background:red;
+    position:relative;
+    transform-origin: center center;
+    transition:all 0.8s;
+}
+.circle {
+    transition:all 0.8s;
+    position:absolute;
+    height:50px;
+    width:50px;
+    text-align: center;
+    line-height: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    background:tomato; 
+    border-radius: 50%;
+}
+
